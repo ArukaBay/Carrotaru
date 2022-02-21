@@ -1,0 +1,223 @@
+body {
+  font-family: Montserrat ;
+
+}
+#gradient{
+background: #eed7ee;
+
+}
+
+#title {
+  background: #6a655d;
+  font-family: "The Nautigal", cursive;
+  border-bottom: 10px solid #dcdcdc;
+
+}
+.black {
+  font-size: 2rem;
+  color: #1c222a;
+}
+.white {
+  font-size: 2rem;
+  color: #dcdcdc;
+}
+
+.logo {
+  font-family:"The Nautigal", cursive;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #998a99;
+  line-height: 1;
+  padding-bottom: 6%;
+}
+
+h4 {
+  font-weight: bold;
+  padding-left:15px;
+  color: #6a655d;
+}
+
+p {
+  color: #6a655d;
+}
+
+.use {
+    color: #aa064b;
+
+}
+.web {
+    color: #429595;
+}
+
+.container-fluid {
+  padding: 0 15%;
+
+}
+
+
+/* Navbar Section */
+
+.navbar-brand {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+
+.nav-item {
+  padding: 0 15px;
+  font-weight: lighter;
+  font-size: 2.2rem;
+
+}
+
+
+/* Features */
+
+#features {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.icon {
+  margin-bottom: 1.5rem;
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+.row{
+  padding-bottom: 5%;
+}
+#button {
+
+  padding-left: 255px ;
+}
+.download-button {
+  margin: 3% 5% 0 0;
+}
+
+#contact{
+
+  background: #6a655d;
+  padding-left: 5%;
+  border-top: 10px solid #dcdcdc;
+
+}
+a{color: #dcdcdc;}
+.contact2{
+
+  text-decoration: none;
+  color: #dcdcdc;
+  padding-top: 1%;
+}
+.footer{
+  padding-top: 2%;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #7ba05b;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width:40 %; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
